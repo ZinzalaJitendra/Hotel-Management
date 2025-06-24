@@ -11,7 +11,7 @@ function HotelReg() {
         <img
           src={assets.regImage}
           className="w-1/2 rounded-xl hidden md:block"
-          alt="reg-image"
+          alt="register-image"
         />
 
         <div className="relative flex flex-col items-center md:w-1/2 p-8 md:p-10">
@@ -22,7 +22,7 @@ function HotelReg() {
           />
           <p className="text-2xl font-semibold mt-6">Register Your Hotel</p>
 
-          {/* HOtel Name */}
+          {/* Hotel Name */}
           <div className="w-full mt-4">
             <lable htmlFor="name" clasName="font-medium text-gray-500">
               Hotel Name
